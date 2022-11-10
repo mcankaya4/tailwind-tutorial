@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Background Repeat
+      bg-repeat
+      bg-no-repeat
+      bg-repeat-x
+      bg-repeat-y
+      bg-repeat-round
+      bg-repeat-space
+    -->
+    <div
+      class="border border-red-500 h-64 w-[1000px] bg-no-repeat"
+      style="background-image: url('../images/pic1.png')"
+    ></div>
+
+    <!-- Background Size
+      bg-auto     : default
+      bg-cover    : yatay sığdır
+      bg-contain  : dikey sığdır
+    -->
+    <div
+      class="border border-red-500 h-64 w-[1000px] bg-no-repeat bg-contain"
+      style="background-image: url('../images/pic1.png')"
+    ></div>
+
+    <!-- Background Position
+      bg-top
+      bg-right
+      bg-center
+      bg-bottom
+      bg-left
+      bg-left-bottom
+      bg-left-top
+      bg-right-bottom
+      bg-right-top
+    -->
+    <div
+      class="border border-red-500 h-64 w-[1000px] bg-no-repeat bg-contain bg-center"
+      style="background-image: url('../images/pic1.png')"
+    ></div>
+
+    <!-- Gradients -->
+    <!-- to right -->
+    <div class="h-24 bg-gradient-to-r from-cyan-500 to-amber-400"></div>
+    <!-- to top right -->
+    <div class="h-24 bg-gradient-to-tr from-cyan-500 to-amber-400"></div>
+    <!-- to bottom left -->
+    <div class="h-24 bg-gradient-to-bl from-cyan-500 to-amber-400"></div>
+
+    <!-- Shadow -->
+    <div class="w-96 m-6 p-3 shadow-lg shadow-red-500/30">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium
+      incidunt quis quos assumenda cumque consectetur molestias repellendus
+      eligendi corporis repudiandae beatae quod, quaerat distinctio, sunt,
+      molestiae porro pariatur delectus doloribus?
+    </div>
+
+    <!-- Mix Blend -->
+    <div class="flex justify-center -space-x-24">
+      <div class="mix-blend-multiply bg-blue-400">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio laborum
+        adipisci, ullam sint expedita unde suscipit harum dolorum? Vero eveniet
+        quisquam officia, praesentium sit possimus veniam esse delectus! Unde,
+        minima.
+      </div>
+      <div class="mix-blend-multiply bg-pink-400">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio laborum
+        adipisci, ullam sint expedita unde suscipit harum dolorum? Vero eveniet
+        quisquam officia, praesentium sit possimus veniam esse delectus! Unde,
+        minima.
+      </div>
+    </div>
+  </body>
+</html>
